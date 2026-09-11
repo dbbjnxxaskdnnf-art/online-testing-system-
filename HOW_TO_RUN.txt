@@ -1,0 +1,16 @@
+QUIZLY — исходный код
+
+React-версия:
+  pnpm install
+  pnpm --filter @workspace/quiz-website run dev
+
+Python-версия:
+  pip install -r requirements-python.txt
+  streamlit run python_app.py --server.port 5000
+
+Главный Python-файл: python_app.py
+Главный React-файл: src/App.tsx
+Простая версия без React: html-css-js/index.html
+
+Учитель может создавать тесты в обеих версиях. Новые тесты появляются у учеников.
+Регистрация и результаты сохраняются локально для демонстрации.
